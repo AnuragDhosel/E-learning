@@ -1,0 +1,67 @@
+﻿
+> e-learning-frontend@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1707[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3000[22m/[39m
+[2m  [32mΓ₧£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+node.exe : 
+node:internal/process/promises:394
+At C:\Program Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpec 
+   ified: (node:internal/process/pro  
+  mises:394:String) [], RemoteExcep   
+ tion
+    + FullyQualifiedErrorId : NativeC 
+   ommandError
+ 
+    triggerUncaughtException(err, 
+true /* fromPromise */);
+    ^
+
+[Failed to load PostCSS config: 
+Failed to load PostCSS config 
+(searchPath: C:/Users/mranu/OneDrive/D
+esktop/E-learning/frontend): 
+[ReferenceError] module is not 
+defined in ES module scope
+This file is being treated as an ES 
+module because it has a '.js' file 
+extension and 'C:\Users\mranu\OneDrive
+\Desktop\E-learning\frontend\package.j
+son' contains "type": "module". To 
+treat it as a CommonJS script, rename 
+it to use the '.cjs' file extension.
+ReferenceError: module is not defined 
+in ES module scope
+This file is being treated as an ES 
+module because it has a '.js' file 
+extension and 'C:\Users\mranu\OneDrive
+\Desktop\E-learning\frontend\package.j
+son' contains "type": "module". To 
+treat it as a CommonJS script, rename 
+it to use the '.cjs' file extension.
+    at file:///C:/Users/mranu/OneDrive
+/Desktop/E-learning/frontend/postcss.c
+onfig.js:1:1
+    at ModuleJob.run (node:internal/mo
+dules/esm/module_job:274:25)
+    at async 
+onImport.tracePromise.__proto__ (node:
+internal/modules/esm/loader:644:26)
+    at async importDefault (file:///C:
+/Users/mranu/OneDrive/Desktop/E-learni
+ng/frontend/node_modules/vite/dist/nod
+e/chunks/dep-BK3b2jBa.js:33759:18)
+    at async Object.search (file:///C:
+/Users/mranu/OneDrive/Desktop/E-learni
+ng/frontend/node_modules/vite/dist/nod
+e/chunks/dep-BK3b2jBa.js:25915:23)]
+
+Node.js v22.16.0

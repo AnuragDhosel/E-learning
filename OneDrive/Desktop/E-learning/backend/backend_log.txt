@@ -1,0 +1,313 @@
+﻿
+> e-learning-backend@1.0.0 dev
+> nodemon server.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+node.exe : (node:14780) [MONGODB 
+DRIVER] Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+At C:\Program Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpec 
+   ified: ((node:14780) [M...t major  
+   version:String) [], RemoteExcept   
+ ion
+    + FullyQualifiedErrorId : NativeC 
+   ommandError
+ 
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:14780) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+(node:24816) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:24816) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] starting `node server.js`[39m
+(node:21488) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:21488) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+node:events:496
+      throw er; // Unhandled 'error' 
+event
+      ^
+
+Error: listen EADDRINUSE: address 
+already in use :::5000
+    at Server.setupListenHandle [as 
+_listen2] (node:net:1939:16)
+    at listenInCluster 
+(node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\mranu
+\OneDrive\Desktop\E-learning\backend\n
+ode_modules\express\lib\application.js
+:635:24)
+    at Object.<anonymous> (C:\Users\mr
+anu\OneDrive\Desktop\E-learning\backen
+d\server.js:53:5)
+    at Module._compile (node:internal/
+modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modul
+es/cjs/loader:1895:10)
+    at Module.load (node:internal/modu
+les/cjs/loader:1465:32)
+    at Function._load (node:internal/m
+odules/cjs/loader:1282:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:322:14)
+Emitted 'error' event on Server 
+instance at:
+    at emitErrorNT (node:net:1975:8)
+    at 
+process.processTicksAndRejections (nod
+e:internal/process/task_queues:90:21) 
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+(node:17820) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:17820) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+(node:14740) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:14740) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+(node:18892) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:18892) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+(node:29052) [MONGODB DRIVER] 
+Warning: useNewUrlParser is a 
+deprecated option: useNewUrlParser 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+(Use `node --trace-warnings ...` to 
+show where the warning was created)
+(node:29052) [MONGODB DRIVER] 
+Warning: useUnifiedTopology is a 
+deprecated option: useUnifiedTopology 
+has no effect since Node.js Driver 
+version 4.0.0 and will be removed in 
+the next major version
+Server is running on port 5000
+MongoDB Connected: localhost
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+C:\Users\mranu\OneDrive\Desktop\E-lear
+ning\backend\node_modules\express\lib\
+router\route.js:216
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a 
+callback function but got a [object 
+Undefined]
+    at Route.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\route.js:216:15)
+    at proto.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\index.js:521:19)
+    at Object.<anonymous> (C:\Users\mr
+anu\OneDrive\Desktop\E-learning\backen
+d\routes\dashboardRoutes.js:6:8)
+    at Module._compile (node:internal/
+modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modul
+es/cjs/loader:1895:10)
+    at Module.load (node:internal/modu
+les/cjs/loader:1465:32)
+    at Function._load (node:internal/m
+odules/cjs/loader:1282:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/m
+odules/cjs/loader:235:24)
+    at Module.require (node:internal/m
+odules/cjs/loader:1487:12)
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+C:\Users\mranu\OneDrive\Desktop\E-lear
+ning\backend\node_modules\express\lib\
+router\route.js:216
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a 
+callback function but got a [object 
+Undefined]
+    at Route.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\route.js:216:15)
+    at proto.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\index.js:521:19)
+    at Object.<anonymous> (C:\Users\mr
+anu\OneDrive\Desktop\E-learning\backen
+d\routes\dashboardRoutes.js:6:8)
+    at Module._compile (node:internal/
+modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modul
+es/cjs/loader:1895:10)
+    at Module.load (node:internal/modu
+les/cjs/loader:1465:32)
+    at Function._load (node:internal/m
+odules/cjs/loader:1282:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/m
+odules/cjs/loader:235:24)
+    at Module.require (node:internal/m
+odules/cjs/loader:1487:12)
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node server.js`[39m
+C:\Users\mranu\OneDrive\Desktop\E-lear
+ning\backend\node_modules\express\lib\
+router\route.js:216
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a 
+callback function but got a [object 
+Undefined]
+    at Route.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\route.js:216:15)
+    at proto.<computed> [as get] (C:\U
+sers\mranu\OneDrive\Desktop\E-learning
+\backend\node_modules\express\lib\rout
+er\index.js:521:19)
+    at Object.<anonymous> (C:\Users\mr
+anu\OneDrive\Desktop\E-learning\backen
+d\routes\dashboardRoutes.js:6:8)
+    at Module._compile (node:internal/
+modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modul
+es/cjs/loader:1895:10)
+    at Module.load (node:internal/modu
+les/cjs/loader:1465:32)
+    at Function._load (node:internal/m
+odules/cjs/loader:1282:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/m
+odules/cjs/loader:235:24)
+    at Module.require (node:internal/m
+odules/cjs/loader:1487:12)
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
